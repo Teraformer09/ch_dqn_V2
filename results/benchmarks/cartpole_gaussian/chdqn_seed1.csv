@@ -1,0 +1,3 @@
+timestamp,episode,reward,td_mean,td_var,loss,latent_gap,model,noise,seed
+2026-04-24T09:31:16.262425+00:00,1,1.9000000000000006,0.0,0.0,0.0,0.0,chdqn,gaussian,1
+2026-04-24T09:31:16.268584+00:00,2,1.7000000000000004,0.0,0.0,0.0,0.0,chdqn,gaussian,1

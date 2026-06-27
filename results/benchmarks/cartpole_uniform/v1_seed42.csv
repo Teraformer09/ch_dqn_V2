@@ -1,0 +1,2 @@
+timestamp,episode,reward,td_mean,td_var,loss,latent_gap,reliability,alpha,gamma_film,model,noise,seed
+2026-06-27T10:08:26.732466+00:00,1,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,V1,uniform,42

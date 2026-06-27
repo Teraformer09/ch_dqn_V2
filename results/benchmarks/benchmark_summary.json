@@ -1,0 +1,38 @@
+{
+  "cartpole_gaussian": {
+    "mean_reward": 18.0,
+    "reward_std": 10.801234245300293,
+    "mean_td": 0.0,
+    "td_variance": 0.0
+  },
+  "cartpole_uniform": {
+    "mean_reward": 18.0,
+    "reward_std": 10.801234245300293,
+    "mean_td": 0.0,
+    "td_variance": 0.0
+  },
+  "cartpole_exponential": {
+    "mean_reward": 18.0,
+    "reward_std": 10.801234245300293,
+    "mean_td": 0.0,
+    "td_variance": 0.0
+  },
+  "cartpole_correlated": {
+    "mean_reward": 18.0,
+    "reward_std": 10.801234245300293,
+    "mean_td": 0.0,
+    "td_variance": 0.0
+  },
+  "cartpole_mixed": {
+    "mean_reward": 18.0,
+    "reward_std": 10.801234245300293,
+    "mean_td": 0.0,
+    "td_variance": 0.0
+  },
+  "cartpole_nonstationary": {
+    "mean_reward": 18.0,
+    "reward_std": 10.801234245300293,
+    "mean_td": 0.0,
+    "td_variance": 0.0
+  }
+}

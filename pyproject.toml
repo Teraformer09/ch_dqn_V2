@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ch-dqn"
+version = "0.1.0"
+description = "Chronological DQN reference implementation with temporal smoothing regularization."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "torch>=2.2",
+  "pytest>=8.0",
+  "gymnasium>=1.2",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = [
+  "slow: marks tests as slow — run with pytest -m slow",
+]

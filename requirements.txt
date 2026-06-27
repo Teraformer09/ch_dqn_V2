@@ -1,0 +1,5 @@
+torch>=2.2
+pytest>=8.0
+gymnasium>=1.2
+pyyaml
+matplotlib

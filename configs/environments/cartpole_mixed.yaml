@@ -1,0 +1,24 @@
+env: cartpole_pomdp
+noise: mixed
+noise_std: 0.02
+spike_prob: 0.2
+spike_scale: 0.5
+
+episodes: 300
+max_steps: 200
+
+batch_size: 32
+seq_len: 12
+
+gamma: 0.99
+learning_rate: 0.001
+
+epsilon_start: 1.0
+epsilon_end: 0.05
+epsilon_decay: 10000
+
+lambda1: 0.01
+lambda2: 0.05
+reward_scale: 1.0
+train_updates_per_episode: 4
+eval_episodes: 20

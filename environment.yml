@@ -1,0 +1,6 @@
+name: chdqn
+dependencies:
+  - python>=3.11
+  - pytorch
+  - pip:
+    - gymnasium
